@@ -15,5 +15,4 @@ while edge:
             risk_path[x, y] = r + risk[x, y]
             edge.append((x, y))
 
-
 print(risk_path[-1, -1])
